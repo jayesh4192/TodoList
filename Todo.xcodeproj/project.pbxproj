@@ -21,6 +21,10 @@
 		C03926AB17AF2EBD004CE297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C039268C17AF2EBD004CE297 /* Foundation.framework */; };
 		C03926B317AF2EBD004CE297 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C03926B117AF2EBD004CE297 /* InfoPlist.strings */; };
 		C03926B617AF2EBD004CE297 /* TodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C03926B517AF2EBD004CE297 /* TodoTests.m */; };
+		C03926C217AF2EE4004CE297 /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03926C017AF2EE4004CE297 /* TodoViewController.m */; };
+		C03926C317AF2EE4004CE297 /* TodoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03926C117AF2EE4004CE297 /* TodoViewController.xib */; };
+		C03926C617AF2F44004CE297 /* TodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03926C517AF2F44004CE297 /* TodoTableViewCell.m */; };
+		C03926C817AF2F73004CE297 /* TodoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03926C717AF2F73004CE297 /* TodoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		C03926B217AF2EBD004CE297 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C03926B417AF2EBD004CE297 /* TodoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTests.h; sourceTree = "<group>"; };
 		C03926B517AF2EBD004CE297 /* TodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTests.m; sourceTree = "<group>"; };
+		C03926BF17AF2EE4004CE297 /* TodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		C03926C017AF2EE4004CE297 /* TodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
+		C03926C117AF2EE4004CE297 /* TodoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodoViewController.xib; sourceTree = "<group>"; };
+		C03926C417AF2F44004CE297 /* TodoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoTableViewCell.h; sourceTree = "<group>"; };
+		C03926C517AF2F44004CE297 /* TodoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoTableViewCell.m; sourceTree = "<group>"; };
+		C03926C717AF2F73004CE297 /* TodoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,12 @@
 				C039269917AF2EBD004CE297 /* TodoAppDelegate.h */,
 				C039269A17AF2EBD004CE297 /* TodoAppDelegate.m */,
 				C039269117AF2EBD004CE297 /* Supporting Files */,
+				C03926BF17AF2EE4004CE297 /* TodoViewController.h */,
+				C03926C017AF2EE4004CE297 /* TodoViewController.m */,
+				C03926C117AF2EE4004CE297 /* TodoViewController.xib */,
+				C03926C417AF2F44004CE297 /* TodoTableViewCell.h */,
+				C03926C517AF2F44004CE297 /* TodoTableViewCell.m */,
+				C03926C717AF2F73004CE297 /* TodoTableViewCell.xib */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -228,6 +244,8 @@
 				C039269D17AF2EBD004CE297 /* Default.png in Resources */,
 				C039269F17AF2EBD004CE297 /* Default@2x.png in Resources */,
 				C03926A117AF2EBD004CE297 /* Default-568h@2x.png in Resources */,
+				C03926C317AF2EE4004CE297 /* TodoViewController.xib in Resources */,
+				C03926C817AF2F73004CE297 /* TodoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +282,8 @@
 			files = (
 				C039269717AF2EBD004CE297 /* main.m in Sources */,
 				C039269B17AF2EBD004CE297 /* TodoAppDelegate.m in Sources */,
+				C03926C217AF2EE4004CE297 /* TodoViewController.m in Sources */,
+				C03926C617AF2F44004CE297 /* TodoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
