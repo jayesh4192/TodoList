@@ -132,7 +132,14 @@
 // Override to support rearranging the table view.
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
 {
-    //todoStrinfromIndexPath
+    
+    NSString* fromString = [todoStrings objectAtIndex:fromIndexPath.row];
+    NSString* toString = [todoStrings objectAtIndex:toIndexPath.row];
+    
+    [todoStrings replaceObjectAtIndex:fromIndexPath.row withObject:fromString];
+    [todoStrings replaceObjectAtIndex:toIndexPath.row withObject:toString];
+    
+      
 }
 
 
